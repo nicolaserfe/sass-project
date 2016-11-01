@@ -1,0 +1,224 @@
+body {
+  background-image: url(../pictures/back-pattern.png);
+  background-color: #337688;
+}
+
+.cnt {
+  width: 768px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.link {
+  float: right;
+  padding: 20px;
+}
+
+.logo {
+  float: left;
+  padding: 20px;
+}
+
+.header {
+  overflow: hidden;
+}
+
+.promotext {
+  width: 330px;
+  padding: 20px;
+  float: left;
+  font: 17px serif;
+  text-align: justify;
+}
+
+.bottle {
+  width: 350px;
+  padding: 20px 20px;
+  float: right;
+}
+
+.blackbox {
+  background-color: black;
+  overflow: hidden;
+  color: grey;
+  font: 17px serif;
+}
+
+.promotext {
+  text-indent: 25px;
+}
+
+.slidertext {
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  margin: 0px 50px 25px;
+  text-align: center;
+  padding-bottom: 10px;
+  font: 17px serif;
+}
+
+.point {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-image: url('../pictures/sprite1.png');
+  background-position: 0px 0px;
+  margin-top: 10px;
+}
+
+.items {
+  text-align: center;
+  padding: 10px;
+}
+
+.ship {
+  width: 150px;
+  display: inline-block;
+}
+
+.leftscr {
+  width: 26px;
+  height: 24px;
+  background-image: url('../pictures/slider_nav.png');
+  background-position: 0px 0px;
+  top: 50%;
+  position: relative;
+}
+
+.leftscrctr {
+  display: inline-block;
+  height: 150px;
+  margin-top: -13px;
+  top: 50%;
+}
+
+.rightscrl {
+  width: 26px;
+  height: 24px;
+  background-image: url('../pictures/slider_nav.png');
+  background-position: 26px 0px;
+  top: 50%;
+  position: relative;
+}
+
+.plus {
+  width: 12px;
+  height: 12px;
+  background-image: url('../pictures/sprites.png');
+  background-position: 0px 0px;
+}
+
+.minus {
+  width: 9px;
+  height: 12px;
+  background-image: url('../pictures/sprites.png');
+  background-position: 13px 0px;
+}
+
+.catalog {
+  width: 400px;
+  margin: 40px;
+  float: left;
+  font: 17px serif;
+}
+
+.catalogImg {
+  width: 230px;
+  margin: 0px 40px 40px 0px;
+  float: right;
+}
+
+.table {
+  overflow: hidden;
+}
+
+.imgAboutus1 {
+  margin: 0px 10px 0px 0px;
+  float: left;
+}
+
+.imgAboutus2 {
+  margin: 0px 0px 10px 10px;
+  float: right;
+  clear: right;
+}
+
+.about_us {
+  margin: 10px;
+  font: 17px serif;
+  text-align: justify;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.contactimg {
+  margin: 20px;
+  padding: 10px;
+  float: right;
+  display: inline-block;
+}
+
+#table {
+  width: 300px;
+  margin: 20px;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.social1 {
+  display: inline-block;
+  width: 83px;
+  height: 83px;
+  background-image: url(../pictures/iconki-dlya-socsetei.jpg);
+  background-position: -28px 120px;
+  margin-top: 10px;
+  border: 1px;
+  border-radius: 85px;
+}
+
+.social2 {
+  display: inline-block;
+  width: 83px;
+  height: 83px;
+  background-image: url(../pictures/iconki-dlya-socsetei.jpg);
+  background-position: -298px -37px;
+  margin-top: 10px;
+  border: 1px;
+  border-radius: 80px;
+}
+
+.social2:hover {
+  display: inline-block;
+  width: 83px;
+  height: 83px;
+  background-image: url(../pictures/ikonki.png);
+  background-position: -368px -52px;
+  margin-top: 10px;
+  border: 1px;
+  border-radius: 80px;
+}
+
+.admin {
+  width: 75px;
+  height: 150px;
+  background-color: whitesmoke;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  margin-top: -75px;
+  cursor: pointer;
+  transition: left 0.5s linear;
+}
+
+.adm-f {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(45deg, white, black);
+  position: absolute;
+  top: -125px;
+  right: 75px;
+}
+
+.admin:hover {
+  left: 400px;
+}
